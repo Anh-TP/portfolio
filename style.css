@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Roboto+Mono:wght@400;500&display=swap");
+
+/* GLOBAL CSS SETTINGS */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  font-family: "Raleway", sans-serif;
+  /* background-color: #343e4e;
+    color: #fff; */
+  /* adopt the user’s base font size for read accessibility and the follow with rem font units */
+  font-family: "roboto mono", monospace;
+  font-size: 100%;
+  /* height: 100vh; */
+}
+
+nav {
+  position: fixed;
+  margin: 10px;
+}
+/* FONTS */
+h1,
+h2 {
+  font-family: "montserrat";
+  text-transform: lowercase;
+}
+
+nav,
+.intro,
+.subheader {
+  text-transform: uppercase;
+}
+
+h3,
+button,
+.intro,
+.navigation {
+  text-transform: uppercase;
+}
+
+/* COLOUR */
+
+a {
+  color: aquamarine;
+}
+
+a:hover {
+  color: orange;
+}
+
+/* ALIGNMENT */
+
+/* IMAGES */
+
+.quickIcons {
+  width: 20px;
+}
