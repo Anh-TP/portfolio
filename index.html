@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <header>
         <!-- Navigation -->
         <nav>
             <a href="#home">Home</a>
@@ -18,24 +17,13 @@
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-            <img src="" alt="" dark mode>
+            <!-- <img src="" alt="" dark mode> -->
         </nav>
-
-        <!-- Contact Icons -->
-        <div class="icons">
-            <img class="quickIcons" src="./assets/email.svg" alt="Email">
-            <img class="quickIcons" src="./assets/codepen.svg" alt="Codepen">
-            <img class="quickIcons" src="./assets/linkedin.svg" alt="LinkedIn">
-            <img class="quickIcons" src="./assets/github.svg" alt="GitHub">
-
-        </div>
-
+        
         <!-- Hero -->
-       <div class="container">
-        <div class="section" id='home'>
-            <div class="intro">
-                <div class="word1">Hi,</div>
-                <div class="word2">Xin chào,</div>
+       <header class="container" id="hero">
+                <div class=" intro word1">👋 Hi, I'm</div>
+                <!-- <div class="word2">Xin chào,</div>
                 <div class="word3">Ciao,</div>
                 <div class="word3">Konnichiwa,</div>
                 <div class="word3">Olá,</div>
@@ -43,21 +31,28 @@
                 <div class="word3">Hej,</div>
                 <div class="word3">Salaam alaykum,</div>
                 <div class="word3">Namaste,</div>
-                <div class="word3">Bawo ni,</div>
+                <div class="word3">Bawo ni,</div> -->
+                </div>
+                 <!-- <div class="intro word2">I'm</div> -->
 
-                <span>I'm</span>
-            </div>
+            <h1 class="name first">Anh</h1>
+            <div class="name last">Phan</div>
+            <div class="name full-stop">.</div>
+            <h3 class="summary">Air-fryer enthusiast. Full stack developer World explorer. Everyday tinkerer</h3>
+          </header>   
 
-
-            <h1>Anh Phan</h1>
-            <h3 class="title">Air-fryer enthusiast. Full stack developer. World explorer. Everyday tinkerer</h3>
+        <!-- Contact Icons -->
+        <div class="icons">
+            <a href="#"><img class="quickIcons" src="./assets/email.svg" alt="Email"></a>
+            <a href="#"><img class="quickIcons" src="./assets/codepen.svg" alt="Codepen"></a>
+            <a href="#"><img class="quickIcons" src="./assets/linkedin.svg" alt="LinkedIn"></a>
+            <a href="#"><img class="quickIcons" src="./assets/github.svg" alt="GitHub"></a>
         </div>
-    </header>
+      
     <!-- About -->
-    <main>
-        <div class="section" id='about'>
-            <h2>About me</h2>
-            <p>Hey there! I'm Anh, a junior full stack developer based in London. I’m
+    <div class="container about" id="about">
+            <h2>About me</h2><span class="full-stop">.</span>
+            <p class="p1">Hey there! I'm Anh, a junior full stack developer based in London. I’m
                 a curious tinkerer with entrepreneurial experience in launching and
                 developing start-ups, with a background in change strategy in the
                 professional services industry. On my journey, I have cultivated a range of
@@ -67,45 +62,32 @@
                 I’m passionate about building inclusive, human centred products
                 and digital experiences as a software artisan.
             </p>
-        </div>
-        <figure>
-            <img src="" alt="" picture of me>
-            <figcaption>
-
-            </figcaption>
-        </figure>
-
-
-        <div class="subheader">
             <h3 class="subheader">Beyond the Code</h3>
-        </div>
-
-        <div class="section" id='about'>
-            <p id='about'>When not immersed in code, you might find me whipping up
+                
+            <p class="p2">When not immersed in code, you might find me whipping up
                 some culinary experiments in the kitch with my trusty air fryer.
                 After all, who said coding and cooking can't share the
                 same philosophy - work smarter, not harder. Right?
             </p>
-        </div>
+                    <!-- <figure>
+            <img src="" alt="" picture of me>
+            <figcaption>
+
+            </figcaption>
+        </figure> -->
        </div>
-
-
         <!-- Skills -->
         <!-- Add icons, hover colour change -->
-        <div class="container">
-            <div class="section" id='skills'>
-                <h2>Skills</h2>
+        <div class="container" id="skills">
+                <h2>Skills</h2><span class="full-stop">.</span>
     
-                <div class="subheader">
                     <h3>Development Skills</h3>
-                </div>
                 <img src="" alt="HTML">
                 <img src="" alt="CSS">
                 <img src="" alt="JavaScript">
                 <img src="" alt="Python">
                 <img src="" alt="MySQL">
     
-                <div class="subheader">
                     <h3>Design Skills & Tools</h3>
                     <img src="" alt="Figma">
                     <img src="" alt="PhotoShop">
@@ -113,34 +95,23 @@
                     <img src="" alt="Illustrator">
                     <img src="" alt="Wordpress">
                     <img src="" alt="VS Code">
-                </div>
-    
-                <div>
-                    <img src="" alt="Anh Phan">
-                </div>
-            </div>
         </div>
 
         <!-- Portfolio -->
-        <!-- image snippets, button displaying language and tool use, click to open to iframe for more info? -->
-        <div class="container">
-            <div class="section" id='projects'>
-        <h2>Some Things I've Built</h2>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-         <img src="" alt="">
-         </div>
+        <!-- image snippets, button displaying language & tool use, click to open to iframe for more info? -->
+        <div class="container" id="portfolio">
+        <h2>Some Things I've Built</h2><span class="full-stop">.</span>
+            <a href="#"><img class="project" src="" alt="project"></a>
+            <a href="#"><img class="project" src="" alt="project"></a>
+            <a href="#"><img class="project" src="" alt="project"></a>
+            <a href="#"><img class="project" src="" alt="project"></a>
         </div>
 
         <!-- Contact -->
-        <div class="container">
-            <div class="section" id='contact'>
-                <h2>let's build something cool together</h2>
+        <div class="container" id="contact">
+                <h2>let's build something cool together</h2><span class="full-stop">.</span>
                 <button class="contact">Get in Touch</button>
-            </div>
         </div>
-    </main>
 </body>
 <footer>
 
