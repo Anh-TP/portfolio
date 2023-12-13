@@ -84,12 +84,16 @@ nav a:hover {
   grid-template: repeat(12, 1fr) / repeat(16, 1fr);
   /* border: 1px solid red; */
   margin-top: 120px;
+  margin-bottom: 70px;
   padding: 50px;
   width: 990px;
   height: 550px;
   border-radius: 100px;
   background-color: var(--tertiary-c);
   box-sizing: border-box;
+  row-gap: 5px;
+  column-gap: 5px;
+  position: relative;
 }
 
 .icons {
@@ -100,6 +104,8 @@ nav a:hover {
   margin-top: 150px;
   flex-direction: column;
   position: fixed;
+  background-color: #18a999;
+  color: #18a999;
 }
 
 /* HERO STYLING */
@@ -156,7 +162,8 @@ h2,
 }
 
 h3,
-.full-stop {
+.full-stop,
+.dot {
   text-transform: uppercase;
   color: var(--primary-c);
 }
@@ -181,6 +188,7 @@ h2,
 }
 
 #about h2 {
+  grid-row: 1 / 5;
   grid-column: 7 / 16;
 }
 
@@ -189,24 +197,112 @@ h2,
 }
 
 p {
-  grid-row: 4 / 9;
-  grid-column: 4 / 17;
   text-align: right;
 }
 
 .p1 {
-  grid-row: 4 / 9;
+  grid-row: 6 / 10;
   grid-column: 4 / 17;
-}
-
-#about .subheader {
-  grid-row: 9;
-  grid-column: 14 / 18;
 }
 
 .p2 {
-  grid-row: 10 / 17;
-  grid-column: 4 / 17;
+  grid-row: 14 / 17;
+  grid-column: 3 / 17;
 }
 
-/*  */
+#about .subheader {
+  grid-row: 13;
+  grid-column: 14 / 18;
+}
+
+#about img {
+  grid-row: 13 / 17;
+  grid-column: 1 / 8;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: -140px;
+  top: -70px;
+}
+
+#about .dot {
+  font-size: 500px;
+  position: absolute;
+  top: 110px;
+  left: -10px;
+}
+/* PORTFOLIO */
+
+#portfolio h2 {
+  grid-row: 1 / 17;
+  grid-column: 11 / 16;
+  text-align: left;
+  /* line-height: 85%; */
+  height: 20px;
+}
+
+#portfolio .full-stop {
+  grid-row: 15 / 17;
+  grid-column: 16 / 17;
+}
+
+.project {
+  border: solid 1px black;
+  /* height: 100px;
+  width: 200px; */
+}
+
+.proj1 {
+  grid-row: 2 / 4;
+  grid-column: 2 / 6;
+}
+
+.proj2 {
+  grid-row: 2 / 4;
+  grid-column: 7 / 11;
+}
+
+.proj3 {
+  grid-row: 6 / 10;
+  grid-column: 2 / 6;
+  background-image: url(./assets/actiontakers.png);
+  background-size: contain;
+}
+
+.proj4 {
+  grid-row: 6 / 10;
+  grid-column: 7 / 11;
+}
+
+/* CONTACT */
+
+#contact h2 {
+  grid-row: 2 / 17;
+  grid-column: 1 / 12;
+}
+
+#contact .full-stop {
+  grid-row: 11;
+  grid-column: 12;
+}
+
+#contact button {
+  grid-row: 12;
+  grid-column: 12 / 16;
+  height: 65px;
+  width: 180px;
+  border-radius: 15px;
+  box-shadow: 4px 5px 4px var(--secondary-c);
+  font-weight: 800;
+}
+
+#contact button:hover {
+  background-color: var(--secondary-cd);
+  color: white;
+}
+
+#contact button:active {
+  box-shadow: 4px 5px 4px black;
+  transform: translateY(4px);
+}
