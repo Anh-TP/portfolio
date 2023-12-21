@@ -325,7 +325,7 @@ p {
   height: 110px;
   border-radius: 10px;
   background-color: var(--secondary-c);
-  opacity: 20%;
+  opacity: 70%;
 }
 
 #skills h3 {
@@ -343,6 +343,7 @@ p {
 
 .skills-icons:hover {
   color: var(--primary-c);
+  opacity: 100%;
 }
 
 #skills .dev-subheader {
