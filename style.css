@@ -325,7 +325,7 @@ p {
   height: 110px;
   border-radius: 10px;
   background-color: var(--secondary-c);
-  opacity: 20%;
+  opacity: 70%;
 }
 
 #skills h3 {
@@ -343,6 +343,7 @@ p {
 
 .skills-icons:hover {
   color: var(--primary-c);
+  opacity: 100%;
 }
 
 #skills .dev-subheader {
@@ -447,9 +448,10 @@ p {
   background-image: url(./assets/snake-game-ai-gen.png);
 }
 
-.financial-app {
+.stopwatch {
   grid-row: 2 / 6;
   grid-column: 7 / 13;
+  background-image: url(./assets/stopwatch.gif);
 }
 
 .py-database {
